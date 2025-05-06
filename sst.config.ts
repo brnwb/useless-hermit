@@ -12,7 +12,7 @@ export default $config({
             input.stage === "production"
               ? "uselesshermit-production"
               : "uselesshermit-dev",
-          region: "us-east-2",
+          region: "us-east-1",
         },
         cloudflare: "6.1.2",
       },
